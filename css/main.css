@@ -85,43 +85,48 @@ header .bottom{
     .col-2{
         margin-right: -90px;
     }
-    #home{
+    #home a{
+        text-decoration: none;
         color: black;
         transition: 0.3s ease-in-out;
     }
-    #about{
+    #about a{
+        text-decoration: none;
         color: black;
         transition: 0.3s ease-in-out;
     }
-    #services{
+    #services a{
+        text-decoration: none;
         color: black;
         transition: 0.3s ease-in-out;
     }
-    #pages{
+    #pages a{
+        text-decoration: none;
         color: black;
         transition: 0.3s ease-in-out;
     }
-    #contact{
+    #contact a{
+        text-decoration: none;
         color: black;
         transition: 0.3s ease-in-out;
     }
-    #home:hover{
+    #home a:hover{
         color: red;
         transition: 0.3s ease-in-out;
     }
-    #about:hover{
+    #about a:hover{
         color: red;
         transition: 0.3s ease-in-out;
     }
-    #services:hover{
+    #services a:hover{
         color: red;
         transition: 0.3s ease-in-out;
     }
-    #pages:hover{
+    #pages a:hover{
         color: red;
         transition: 0.3s ease-in-out;
     }
-    #contact:hover{
+    #contact a:hover{
         color: red;
         transition: 0.3s ease-in-out;
     }
@@ -171,6 +176,110 @@ main{
         }
         .container .row .col-md-4 .d-flex .service-content{
             margin-left: 30px;
+        }
+    }
+    .space-container{
+        height: 80px;
+        width: 100%;
+    }
+    #discount{
+        .row{
+            margin-left: 65px;
+            margin-right: 65px;
+        }
+        .col{
+            width: 50%;
+            height: 368px;
+            border: 0.3px solid rgba(170, 170, 170, 0.507);
+            text-align: left;
+            padding-left: 30px;
+            padding-top: 30px;
+        }
+        #service-content-2{
+            background-image: url(../img/repairing-auto.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 188px center;
+            .linear-gradient-div{
+                margin-left: 21px;
+                margin-top: -30px;
+                position: absolute;
+                height: 366px;
+                width: 530px;
+                background-color: transparent;
+                background-image: linear-gradient(290deg, rgba(64, 84, 178, 0.35) 45%, #FFFFFF 0%);
+                opacity: 1;
+                z-index: 0;
+                transition: 0.3s ease-in-out;
+            }
+        }
+        #service-content-3{
+            background-image: url(../img/quick-help.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 188px center;
+            .linear-gradient-div{
+                margin-left: 21px;
+                margin-top: -30px;
+                position: absolute;
+                height: 366px;
+                width: 530px;
+                background-color: transparent;
+                background-image: linear-gradient(290deg, rgba(64, 84, 178, 0.35) 45%, #FFFFFF 0%);
+                opacity: 1;
+                z-index: 0;
+                transition: 0.3s ease-in-out;
+            }
+        }
+        #service-content-2:hover{
+            background-image: url(../img/repairing-auto.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 188px center;
+            .linear-gradient-div{
+                margin-left: 0px;
+                margin-top: -30px;
+                position: absolute;
+                height: 366px;
+                width: 551px;
+                background-color: transparent;
+                background-image: linear-gradient(290deg, rgba(64, 85, 178, 0) 45%, #FFFFFF 0%);
+                opacity: 1;
+                z-index: 0;
+                transition: 0.3s ease-in-out;
+            }
+        }
+        #service-content-3:hover{
+            background-image: url(../img/quick-help.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 188px center;
+            .linear-gradient-div{
+                margin-left: 0px;
+                margin-top: -30px;
+                position: absolute;
+                height: 366px;
+                width: 551px;
+                background-color: transparent;
+                background-image: linear-gradient(290deg, rgba(64, 85, 178, 0) 45%, #FFFFFF 0%);
+                opacity: 1;
+                z-index: 0;
+                transition: 0.3s ease-in-out;
+            }
+        }
+        .row .col h2{
+            margin-bottom: 20px;
+            width: 40px;
+            
+        }
+        .row .col h2 p{
+            position: relative;
+            margin-bottom: 0px;
+            font-weight: 900;
+        }
+        .row .col p{
+            position: relative;
+            width: 230px;
         }
     }
 }
