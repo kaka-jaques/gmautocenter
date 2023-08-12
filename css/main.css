@@ -33,9 +33,9 @@ header .top #social{
     .space{
         margin-left: 25px;
     }
-    .fa-square-facebook{
+    .fa-square-instagram{
         height: 32px;
-        color: rgb(1, 67, 143);
+        color: rgb(255, 2, 65);
         transition: 0.3s ease-in-out;
     }
     .fa-square-twitter{
@@ -48,9 +48,9 @@ header .top #social{
         color: rgb(3, 214, 31);
         transition: 0.3s ease-in-out;
     }
-    .fa-square-facebook:hover{
+    .fa-square-instagram:hover{
         height: 40px;
-        color: rgb(3, 99, 209);
+        color: rgb(255, 2, 107);
         transition: 0.3s ease-in-out;
     }
     .fa-square-twitter:hover{
@@ -313,6 +313,7 @@ main{
             padding: 30px;
             border: 0.3px solid rgba(170, 170, 170, 0.507);
             transition: 0.3s ease-in-out;
+            background-color: white;
             .row .col{
                 justify-items: left;
                 align-items: left;
@@ -356,6 +357,70 @@ main{
         .row #item6:hover{
             border: 0.3px solid rgba(51, 51, 51, 0.733);
             transition: 0.3s ease-in-out;
+        }
+    }
+    .bg-es{
+        background-color: #061E4C;
+    }
+    .exp-top{
+        position: absolute;
+        height: 100%;
+        background-image: linear-gradient(360deg, #061E4C 75%, #FFFFFF 0%);
+        z-index: -1;
+    }
+    #especialized-services{
+        background-color: #061E4C;
+        text-align: center;
+        #row-1{
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .row .col h2{
+            color: white;
+            font-weight: 900;
+        }
+        .row .col-4{
+            height: 360px;
+            padding: 30px;
+            text-align: left;
+            background-color: transparent;
+            transition: 0.3s ease-in-out;
+            .row .col h3{
+                margin-top: 20px;
+                margin-bottom: 20px;
+                color: white;
+                font-weight: 800;
+                font-size: 18px;
+            }
+            .row .col p{
+                color: white;
+                font-size: 17px;
+                margin-bottom: 40px;
+            }
+            .row .col a{
+                font-weight: 600;
+                fill: white;
+                color: white;
+                text-decoration: inherit;
+            }
+        }
+        .row #item1:hover{
+            background-color: #042d7977;
+        }
+        .row #item2:hover{
+            background-color: #042d7977;
+        }
+        .row #item3:hover{
+            background-color: #042d7977;
+        }
+        .row #item4:hover{
+            background-color: #042d7977;
+        }
+        .row #item5:hover{
+            background-color: #042d7977;
+        }
+        .row #item6:hover{
+            background-color: #042d7977;
         }
     }
 }
