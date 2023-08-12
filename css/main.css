@@ -282,4 +282,80 @@ main{
             width: 230px;
         }
     }
+    #services-tab{
+        text-align: center;
+        display: block;
+        .row .col p{
+            color: orange;
+            font-weight: 700;
+        }
+        .row .col h1{
+            font-size: 55px;
+            font-weight: 900;
+        }
+        .row .col h6{
+            line-height: 1.8em;
+            font-weight: 500;
+            font-size: 15px;
+            color: rgba(37, 37, 37, 0.66);
+            padding-top: 30px;
+            padding-left: 350px;
+            padding-right: 350px;
+        }
+    }
+    #services-desc{
+        #row-1{
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .row .col-4{
+            height: 360px;
+            padding: 30px;
+            border: 0.3px solid rgba(170, 170, 170, 0.507);
+            transition: 0.3s ease-in-out;
+            .row .col{
+                justify-items: left;
+                align-items: left;
+            }
+            .row .col h3{
+                margin-top: 20px;
+                margin-bottom: 20px;
+                font-size: 18px;
+                font-weight: 800;
+            }
+            .row .col p{
+                margin-bottom: 40px;
+            }
+            .row .col a{
+                font-weight: 600;
+                fill: #4054B2;
+                color: #4054B2;
+                text-decoration: inherit;
+            }
+        }
+        .row #item1:hover{
+            border: 0.3px solid rgba(51, 51, 51, 0.733);
+            transition: 0.3s ease-in-out;
+        }
+        .row #item2:hover{
+            border: 0.3px solid rgba(51, 51, 51, 0.733);
+            transition: 0.3s ease-in-out;
+        }
+        .row #item3:hover{
+            border: 0.3px solid rgba(51, 51, 51, 0.733);
+            transition: 0.3s ease-in-out;
+        }
+        .row #item4:hover{
+            border: 0.3px solid rgba(51, 51, 51, 0.733);
+            transition: 0.3s ease-in-out;
+        }
+        .row #item5:hover{
+            border: 0.3px solid rgba(51, 51, 51, 0.733);
+            transition: 0.3s ease-in-out;
+        }
+        .row #item6:hover{
+            border: 0.3px solid rgba(51, 51, 51, 0.733);
+            transition: 0.3s ease-in-out;
+        }
+    }
 }
