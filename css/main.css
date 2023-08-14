@@ -156,7 +156,7 @@ main{
         }
     }
     #intro{
-        height: 850px;
+        height: 900px;
         width: 100%;
         background-image: linear-gradient(rgba(127, 168, 255, 0.356), rgba(0, 60, 255, 0.479)), url(main-background.jpg);
         background-position: top center;
@@ -176,6 +176,9 @@ main{
             padding-bottom: 15px;
             margin-top: 40px;
             margin-left: 70px;
+        }
+        .btn a{
+            text-decoration: none;
         }
         #intro-text{
             font-size: 17px;
@@ -227,7 +230,7 @@ main{
             background-image: url(../img/repairing-auto.jpg);
             background-size: cover;
             background-repeat: no-repeat;
-            background-position: 188px center;
+            background-position: 220px center;
             .linear-gradient-div{
                 margin-left: 21px;
                 margin-top: -30px;
@@ -245,7 +248,7 @@ main{
             background-image: url(../img/quick-help.jpg);
             background-size: cover;
             background-repeat: no-repeat;
-            background-position: 188px center;
+            background-position: 140px center;
             .linear-gradient-div{
                 margin-left: 21px;
                 margin-top: -30px;
@@ -263,7 +266,7 @@ main{
             background-image: url(../img/repairing-auto.jpg);
             background-size: cover;
             background-repeat: no-repeat;
-            background-position: 188px center;
+            background-position: 220px center;
             .linear-gradient-div{
                 margin-left: 0px;
                 margin-top: -30px;
@@ -281,7 +284,7 @@ main{
             background-image: url(../img/quick-help.jpg);
             background-size: cover;
             background-repeat: no-repeat;
-            background-position: 188px center;
+            background-position: 140px center;
             .linear-gradient-div{
                 margin-left: 0px;
                 margin-top: -30px;
@@ -308,6 +311,18 @@ main{
         .row .col p{
             position: relative;
             width: 230px;
+        }
+        .row .col a{
+            position: relative;
+            
+            .btn{
+                margin-top: 15px;
+                height: 56px;
+                background-color: orange;
+                color: white;
+                font-size: 18px;
+                font-weight: 700;
+            }
         }
     }
     #services-tab{
