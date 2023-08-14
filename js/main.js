@@ -1,30 +1,65 @@
 const counters = document.querySelectorAll('.counter-number');
-const speed = 2000;
+const fadeIns = document.querySelectorAll('.fade-in');
+
+const options = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.5 // Dispara a animação quando 50% do elemento está visível
+};
+
+const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const counter = entry.target;
+            const start = +counter.innerText;
+            const target = +counter.getAttribute('akhi');
+            const duration = 2000;
+            const interval = 10;
+            let currentTime = 0;
+
+            const animate = () => {
+                currentTime += interval;
+                const progress = Math.min(currentTime / duration, 1);
+                const easedProgress = easeInOutCubic(progress);
+
+                const value = Math.round(start + (target - start) * easedProgress);
+
+                if(counter.getAttribute('ap') == 1){
+                    counter.innerText = value+'+';
+                }else{
+                    counter.innerText = value;
+                }
+
+                if (currentTime < duration) {
+                    setTimeout(animate, interval);
+                }
+            };
+
+            animate();
+
+            // Parar de observar após a animação ter começado
+            observer.unobserve(counter);
+        }
+    });
+}, options);
+
+const fadeInObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.classList.add('fade-in-active');
+            observer.unobserve(entry.target);
+        }
+    })
+}, options)
 
 counters.forEach(counter => {
-    const start = +counter.innerText;
-    const target = +counter.getAttribute('akhi');
-    const duration = 2000; // Tempo total da animação em milissegundos
-    const interval = 10; // Intervalo de atualização em milissegundos
-    let currentTime = 0;
-
-    const animate = () => {
-        currentTime += interval;
-        const progress = Math.min(currentTime / duration, 1); // Garante que o progresso esteja entre 0 e 1
-        const easedProgress = easeInOutCubic(progress); // Aplica uma função de easing (aceleração) personalizada
-
-        const value = Math.round(start + (target - start) * easedProgress);
-        counter.innerText = value;
-
-        if (currentTime < duration) {
-            setTimeout(animate, interval);
-        }
-    };
-
-    animate();
+    observer.observe(counter);
 });
 
-// Função de easing personalizada (easeInOutCubic)
+fadeIns.forEach(fadeIn => {
+    fadeInObserver.observe(fadeIn);
+})
+
 function easeInOutCubic(t) {
     return t < 0.5 ? 4 * t ** 3 : 1 - Math.pow(-2 * t + 2, 3) / 2;
 }
