@@ -63,3 +63,10 @@ fadeIns.forEach(fadeIn => {
 function easeInOutCubic(t) {
     return t < 0.5 ? 4 * t ** 3 : 1 - Math.pow(-2 * t + 2, 3) / 2;
 }
+
+function enableOverlayer(){
+    document.getElementById('over-choose').classList.add('overlay-active');
+}
+function disableOverlayer(){
+    document.getElementById('over-choose').classList.remove('overlay-active');
+}

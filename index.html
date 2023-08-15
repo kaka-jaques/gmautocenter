@@ -49,7 +49,7 @@
                         <a href="https://" target="_blank" rel="noopener noreferrer"><i
                                 class="fa-brands fa-square-twitter"></i></a>
                         <div class="space"></div>
-                        <a href="https://api.whatsapp.com/send?phone=seu_numero&text=Oi,%20Encontrei%20seu%20contato%20pelo%20site,%20gostaria%20de%20saber%20mais!" target="_blank" rel="noopener noreferrer"><i
+                        <a href="https://api.whatsapp.com/send?phone=+554733043619&text=Oi,%20Encontrei%20seu%20contato%20pelo%20site,%20gostaria%20de%20saber%20mais!" target="_blank" rel="noopener noreferrer"><i
                                 class="fa-brands fa-square-whatsapp"></i></a>
                         <div class="space"></div>
                     </div>
@@ -61,7 +61,7 @@
                 <div class="row">
                     <div class="col-5"></div>
                     <div class="col-1" id="home"><a href=""><b>Home</b></a></div>
-                    <div class="col-2" id="about"><a href=""><b>Sobre nós</b></a></div>
+                    <div class="col-2" id="about"><a href="#choose-us"><b>Sobre nós</b></a></div>
                     <div class="col-1" id="services"><a href="#services-tab"><b>Serviços</b></a></div>
                     <div class="col-1" id="pages"><a href=""><b>Páginas</b></a></div>
                     <div class="col-1" id="contact"><a href=""><b>Contato</b></a></div>
@@ -79,7 +79,7 @@
                 </div>
                 <div class="row">
                     <div class="col-3">
-                        <a href="https://api.whatsapp.com/send?phone=seu_numero&text=Oi,%20Encontrei%20seu%20contato%20pelo%20site,%20gostaria%20de%20saber%20mais!" target="_blank"><button type="button" class="btn btn-warning"><b>FAÇA UM ORÇAMENTO!</b></button></a>
+                        <a href="https://api.whatsapp.com/send?phone=+554733043619&text=Oi,%20Encontrei%20seu%20contato%20pelo%20site,%20gostaria%20de%20saber%20mais!" target="_blank"><button type="button" class="btn btn-warning"><b>FAÇA UM ORÇAMENTO!</b></button></a>
                     </div>
                 </div>
                 <div class="row">
@@ -114,7 +114,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" style="border-right: none;">
                         <div class="d-flex align-items-center">
                             <img src="./img/consult.png" alt="Reparo">
                             <div class="service-content">
@@ -136,13 +136,13 @@
                         <div class="linear-gradient-div"></div>
                         <h2><b><p>10% OFF</p><p>Serviços</p></b></h2>
                         <p>Tenha 10% de desconto na seu primeiro reparo ou serviços entrando em contato conosco!</p>
-                        <a href="https://api.whatsapp.com/send?phone=seu_numero&text=Oi,%20Encontrei%20seu%20contato%20pelo%20site,%20gostaria%20de%20saber%20mais!" target="_blank" rel="noopener noreferrer"><button class="btn">Fale Conosco!</button></a>
+                        <a href="https://api.whatsapp.com/send?phone=+554733043619&text=Oi,%20Encontrei%20seu%20contato%20pelo%20site,%20gostaria%20de%20saber%20mais!" target="_blank" rel="noopener noreferrer"><button class="btn">Fale Conosco!</button></a>
                     </div>
                     <div class="col" id="service-content-3">
                         <div class="linear-gradient-div"></div>
                         <h2><b><p>5% OFF</p><p>Manutenção</p></b></h2>
                         <p>Receba 5% de desconto em sua primeira manutenção com a gente! Entre em contato!</p>
-                        <a href="https://api.whatsapp.com/send?phone=seu_numero&text=Oi,%20Encontrei%20seu%20contato%20pelo%20site,%20gostaria%20de%20saber%20mais!" target="_blank" rel="noopener noreferrer"><button class="btn">Fale Conosco!</button></a>
+                        <a href="https://api.whatsapp.com/send?phone=+554733043619&text=Oi,%20Encontrei%20seu%20contato%20pelo%20site,%20gostaria%20de%20saber%20mais!" target="_blank" rel="noopener noreferrer"><button class="btn">Fale Conosco!</button></a>
                     </div>
                 </div>
             </div>
@@ -444,6 +444,26 @@
             </div>
         </div>
         <div class="space-container bg-es"></div>
+        <div class="overlayer-description-choose" id="over-choose" >
+            <div class="overlayer-content">
+                <button id="close" onclick="disableOverlayer()"><i class="fa-solid fa-xmark"></i></button>
+                <div class="row">
+                    <div class="col" id="gilmar"></div>
+                    <div class="col" id="gilmar-description">
+                        <h2>Gilmar Binotto</h2>
+                        <p>Profissional na área a mais de 20 anos, especializado e treinado pela concessionário Uvel Veículos oferecido pela própria GM Motors!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col" id="marcio-description">
+                        <h2>Márcio</h2>
+                        <p>Profissional na área a mais de 20 anos, especializado e treinado pela concessionária Uvel Veículos oferecido pela própria GM Motors!</p>
+                    </div>
+                    <div class="col" id="marcio">
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="fade-in slide-in" id="choose-us">
             <div class="container">
                 <div class="row">
@@ -451,7 +471,7 @@
                         <div class="description">
                             <h2>Porque nos Escolher?</h2>
                             <p>Profissionais qualificados e altamente treinados, com o melhor equipamento e tecnologia disponível!</p>
-                            <a href=""><b>— Leia mais!</b></a>
+                            <button onclick="enableOverlayer()"><b>— Leia mais!</b></button>
                         </div>
                     </div>
                 </div>
@@ -494,6 +514,30 @@
             </div>
         </div>
         <div class="space-container"></div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5 contact-image"></div>
+                    <div class="col-7 contact-description">
+                        <div class="row">
+                            <div class="col" style="border-right: 0.3px solid rgba(170, 170, 170, 0.507);">
+                                <h2>Agendamento Gratuito</h2>
+                            </div>
+                            <div class="col">
+                                <h2>Horário de Funcionamento</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="space-container"></div>
     </main>
     <footer>
 
@@ -526,5 +570,4 @@
     <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"></script>
     <script type="text/javascript" src="./js/main.js"></script>
 </body>
-
 </html>

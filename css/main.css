@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
 
+/* STYLE SHEET GERAL */
+
 header {
     display: block;
     width: 100%;
@@ -502,10 +504,11 @@ main{
                 padding-left: 210px;
                 padding-right: 80px;
             }
-            .description a{
-                padding-left: 210px;
-                text-decoration: none;
+            .description button{
+                margin-left: 210px;
                 color: white;
+                border: none;
+                background-color: transparent;
             }
         }
         .row #statistics{
@@ -539,6 +542,78 @@ main{
             }
         }
     }
+    .overlayer-description-choose{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        padding-left: 20%;
+        transform: translate(-50%, -50%);
+        background-color: #020202b6;
+        align-items: center;
+        display: flex;
+        z-index: 9999;
+        transition: 0.5s ease-in-out;
+        opacity: 0;
+        visibility: hidden;
+        animation: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+        .overlayer-content{
+            width: 60%;
+            height: 95%;
+            background-color: white;
+            overflow: auto;
+            text-align: right;
+            overflow-x: hidden;
+            #close{
+                position: fixed;
+                border: none;
+                background-color: transparent;
+                right: 33%;
+                .fa-xmark{
+                    height: 30px;
+                }
+            }
+            #gilmar{
+                height: 700px;
+                background-image: url(../img/gilmar-pexel.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+            }
+            #gilmar-description{
+                text-align: left;
+                
+            }
+            #gilmar-description h2{
+                font-weight: 800;
+                font-size: 45px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+            #marcio{
+                height: 700px;
+                background-image: url(../img/marcio-pexel.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+            }
+            #marcio-description{
+                text-align: right;
+            }
+            #marcio-description h2{
+                font-weight: 800;
+                font-size: 45px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .overlay-active{
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
     #feedback{
         text-align: center;
         .row .col #feedback-title{
@@ -558,6 +633,29 @@ main{
             line-height: 1.8em;
             padding-left: 30%;
             padding-right: 30%;
+        }
+        .container{
+            border-bottom: 0.3px solid rgba(170, 170, 170, 0.507);
+        }
+    }
+    #contact{
+        .contact-image{
+            height: 778px;
+            background-image: url(../img/contact-image.jpg);
+            background-size: 83%;
+            background-repeat: no-repeat;
+            background-position: center center;
+            padding-left: 80px;
+        }
+        .contact-description{
+            padding-right: 80px;
+            text-align: center;
+            justify-items: center;
+        }
+        .contact-description h2{
+            font-size: 22px;
+            font-weight: 900;
+            margin-bottom: 40px;
         }
     }
 }
