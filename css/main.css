@@ -566,6 +566,7 @@ main{
             text-align: right;
             overflow-x: hidden;
             #close{
+                color: red;
                 position: fixed;
                 border: none;
                 background-color: transparent;
@@ -576,16 +577,16 @@ main{
             }
             #gilmar{
                 height: 700px;
-                background-image: url(../img/gilmar-pexel.jpg);
+                background-image: url(../img/gilmar.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
-                background-position: center center;
+                background-position: -150px center;
             }
             #gilmar-description{
                 text-align: left;
                 
             }
-            #gilmar-description h2{
+            .col h2{
                 font-weight: 800;
                 font-size: 45px;
                 margin-top: 30px;
@@ -593,7 +594,7 @@ main{
             }
             #marcio{
                 height: 700px;
-                background-image: url(../img/marcio-pexel.jpg);
+                background-image: url(../img/marcio.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center center;
@@ -601,12 +602,24 @@ main{
             #marcio-description{
                 text-align: right;
             }
-            #marcio-description h2{
-                font-weight: 800;
-                font-size: 45px;
-                margin-top: 30px;
-                margin-bottom: 30px;
+            #employee-1{
+                height: 700px;
+                background-image: url(../img/employee-1.jpg);
+                background-repeat: no-repeat;
+                background-size: 135%;
+                background-position: 0.5% center;
             }
+            #employee-1-description{
+                text-align: left;
+            }
+            #employee-2{
+                height: 700px;
+                background-image: url(../img/employee-2.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+            }
+
         }
     }
     .overlay-active{
@@ -651,11 +664,21 @@ main{
             padding-right: 80px;
             text-align: center;
             justify-items: center;
+            #description{
+                width: 100%;
+                border-bottom: 0.3px solid rgba(170, 170, 170, 0.507);
+                text-align: left;
+                padding-bottom: 10px;
+                margin-top: 10px;
+                .fa-check{
+                    color: orange;
+                }
+            }
         }
         .contact-description h2{
             font-size: 22px;
             font-weight: 900;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
         }
     }
 }
