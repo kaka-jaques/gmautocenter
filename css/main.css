@@ -247,10 +247,10 @@ main{
             }
         }
         #service-content-3{
-            background-image: url(../img/quick-help.jpg);
-            background-size: cover;
+            background-image: url(../img/transmission-service.jpg);
+            background-size: 70%;
             background-repeat: no-repeat;
-            background-position: 140px center;
+            background-position: 250px center;
             .linear-gradient-div{
                 margin-left: 21px;
                 margin-top: -30px;
@@ -283,10 +283,10 @@ main{
             }
         }
         #service-content-3:hover{
-            background-image: url(../img/quick-help.jpg);
-            background-size: cover;
+            background-image: url(../img/transmission-service.jpg);
+            background-size: 70%;
             background-repeat: no-repeat;
-            background-position: 140px center;
+            background-position: 250px center;
             .linear-gradient-div{
                 margin-left: 0px;
                 margin-top: -30px;
@@ -582,15 +582,20 @@ main{
                 background-size: cover;
                 background-position: -150px center;
             }
-            #gilmar-description{
+            #description{
+                color: white;
                 text-align: left;
-                
+                background-image: url(../img/description-background.jpg);
             }
             .col h2{
                 font-weight: 800;
                 font-size: 45px;
                 margin-top: 30px;
                 margin-bottom: 30px;
+            }
+            .col p{
+                font-size: 18px;
+                font-weight: 500;
             }
             #marcio{
                 height: 700px;
@@ -599,18 +604,12 @@ main{
                 background-size: cover;
                 background-position: center center;
             }
-            #marcio-description{
-                text-align: right;
-            }
             #employee-1{
                 height: 700px;
                 background-image: url(../img/employee-1.jpg);
                 background-repeat: no-repeat;
                 background-size: 135%;
                 background-position: 0.5% center;
-            }
-            #employee-1-description{
-                text-align: left;
             }
             #employee-2{
                 height: 700px;
@@ -651,13 +650,13 @@ main{
             border-bottom: 0.3px solid rgba(170, 170, 170, 0.507);
         }
     }
-    #contact{
+    #contact-us{
         .contact-image{
             height: 778px;
             background-image: url(../img/contact-image.jpg);
             background-size: 83%;
             background-repeat: no-repeat;
-            background-position: center center;
+            background-position: 100px 20px;
             padding-left: 80px;
         }
         .contact-description{
@@ -679,6 +678,9 @@ main{
             font-size: 22px;
             font-weight: 900;
             margin-bottom: 30px;
+        }
+        #contact_localization{
+            text-align: left;
         }
     }
 }

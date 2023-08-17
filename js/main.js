@@ -26,6 +26,10 @@ const observer = new IntersectionObserver((entries, observer) => {
 
                 if(counter.getAttribute('ap') == 1){
                     counter.innerText = value+'+';
+                }else if(counter.getAttribute('ap') == 2){
+                    counter.innerText = value+'K';
+                }else if(counter.getAttribute('ap') == 3){
+                    counter.innerText = value+'K+';
                 }else{
                     counter.innerText = value;
                 }
