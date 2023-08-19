@@ -679,7 +679,14 @@ main{
             font-weight: 900;
             margin-bottom: 30px;
         }
-        #contact_localization{
+        #contact-localization{
+            padding-top: 80px;
+            margin-bottom: 20px;
+        }
+        #contact-localization h1{
+            font-weight: 900;
+        }
+        #contact-description{
             text-align: left;
         }
     }
