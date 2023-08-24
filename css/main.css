@@ -682,12 +682,24 @@ main{
         #contact-localization{
             padding-top: 80px;
             margin-bottom: 20px;
+            text-align: left;
         }
         #contact-localization h1{
             font-weight: 900;
         }
         #contact-description{
             text-align: left;
+            border-bottom: 0.3px solid rgba(170, 170, 170, 0.507);
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+        .maps-location{
+            margin-top: 50px;
+            width: 100%;
+        }
+        .maps-location iframe{
+            width: 100%;
+            height: 300px;
         }
     }
 }
