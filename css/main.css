@@ -703,3 +703,21 @@ main{
         }
     }
 }
+footer{
+    background-color: #061E4C;
+    height: 700px;
+    .footer-description{
+        height: 400px;
+        padding-top: 100px;
+    }
+    .copyright{
+        text-align: left;
+        border-top: 0.3px solid rgba(170, 170, 170, 0.507);
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 50px;
+        color: #939393;
+        font-size: 12px;
+        
+    }
+}
