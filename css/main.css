@@ -228,7 +228,7 @@ main{
             padding-left: 30px;
             padding-top: 30px;
         }
-        #service-content-2{
+        /* #service-content-2{
             background-image: url(../img/repairing-auto.jpg);
             background-size: cover;
             background-repeat: no-repeat;
@@ -244,65 +244,48 @@ main{
                 opacity: 1;
                 z-index: 0;
                 transition: 0.3s ease-in-out;
-            }
-        }
+            } 
+        }*/
         #service-content-3{
             background-image: url(../img/transmission-service.jpg);
             background-size: 70%;
             background-repeat: no-repeat;
-            background-position: 250px center;
+            background-position: 350px center;
             .linear-gradient-div{
                 margin-left: 21px;
                 margin-top: -30px;
                 position: absolute;
                 height: 366px;
-                width: 530px;
+                width: 1114px;
                 background-color: transparent;
-                background-image: linear-gradient(290deg, rgba(64, 84, 178, 0.35) 45%, #FFFFFF 0%);
+                background-image: linear-gradient(290deg, rgba(64, 84, 178, 0.35) 65%, #FFFFFF 0%);
                 opacity: 1;
                 z-index: 0;
-                transition: 0.3s ease-in-out;
-            }
-        }
-        #service-content-2:hover{
-            background-image: url(../img/repairing-auto.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: 220px center;
-            .linear-gradient-div{
-                margin-left: 0px;
-                margin-top: -30px;
-                position: absolute;
-                height: 366px;
-                width: 551px;
-                background-color: transparent;
-                background-image: linear-gradient(290deg, rgba(64, 85, 178, 0) 45%, #FFFFFF 0%);
-                opacity: 1;
-                z-index: 0;
-                transition: 0.3s ease-in-out;
+                transition: 0.3s ease-in-out, background-image 0.3s ease-in-out;
+                transform: translateX(0);
             }
         }
         #service-content-3:hover{
             background-image: url(../img/transmission-service.jpg);
             background-size: 70%;
             background-repeat: no-repeat;
-            background-position: 250px center;
+            background-position: 350px center;
             .linear-gradient-div{
                 margin-left: 0px;
                 margin-top: -30px;
                 position: absolute;
                 height: 366px;
-                width: 551px;
+                width: 1135px;
                 background-color: transparent;
-                background-image: linear-gradient(290deg, rgba(64, 85, 178, 0) 45%, #FFFFFF 0%);
+                background-image: linear-gradient(290deg, rgba(64, 85, 178, 0) 65%, #FFFFFF 0%);
                 opacity: 1;
                 z-index: 0;
-                transition: 0.3s ease-in-out;
+                transition: 0.3s ease-in-out, background-image 0.3s ease-in-out;
             }
         }
         .row .col h2{
             margin-bottom: 20px;
-            width: 40px;
+            width: 300px;
             
         }
         .row .col h2 p{
@@ -312,11 +295,10 @@ main{
         }
         .row .col p{
             position: relative;
-            width: 230px;
+            width: 300px;
         }
         .row .col a{
             position: relative;
-            
             .btn{
                 margin-top: 15px;
                 height: 56px;
@@ -403,6 +385,18 @@ main{
             border: 0.3px solid rgba(51, 51, 51, 0.733);
             transition: 0.3s ease-in-out;
         }
+        .row #item7:hover{
+            border: 0.3px solid rgba(51, 51, 51, 0.733);
+            transition: 0.3s ease-in-out;
+        }
+        .row #item8:hover{
+            border: 0.3px solid rgba(51, 51, 51, 0.733);
+            transition: 0.3s ease-in-out;
+        }
+        .row #item9:hover{
+            border: 0.3px solid rgba(51, 51, 51, 0.733);
+            transition: 0.3s ease-in-out;
+        }
     }
     .bg-es{
         background-color: #061E4C;
@@ -410,6 +404,7 @@ main{
     .exp-top{
         position: absolute;
         height: 100%;
+        transform: translateY(150px);
         background-image: linear-gradient(360deg, #061E4C 75%, #FFFFFF 0%);
         z-index: -1;
     }
@@ -718,6 +713,5 @@ footer{
         height: 50px;
         color: #939393;
         font-size: 12px;
-        
     }
 }
