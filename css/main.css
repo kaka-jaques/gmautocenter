@@ -1028,30 +1028,30 @@ footer{
             z-index: 0;
             transition: 0.3s ease-in-out, background-image 0.3s ease-in-out;
         }
-        .row .col h2{
+        main #discount .row .col h2{
             margin-bottom: 20px;
             width: 300px;
             
         }
-        .row .col h2 p{
+        main #discount .row .col h2 p{
             position: relative;
             margin-bottom: 0px;
             font-weight: 900;
         }
-        .row .col p{
+        main #discount .row .col p{
             position: relative;
             width: 300px;
         }
-        .row .col a{
+        main #discount .row .col a{
             position: relative;
-            .btn{
-                margin-top: 15px;
-                height: 56px;
-                background-color: orange;
-                color: white;
-                font-size: 18px;
-                font-weight: 700;
-            }
+        }
+        main #discount .row .col a .btn{
+            margin-top: 15px;
+            height: 56px;
+            background-color: orange;
+            color: white;
+            font-size: 18px;
+            font-weight: 700;
         }
         #services-tab{
             text-align: center;
@@ -1457,5 +1457,158 @@ footer{
             color: #939393;
             font-size: 12px;
         }
+    }
+}
+
+@media screen and (max-width: 1199px){
+    main #discount .col{
+        width: 50%;
+        height: 480px;
+        border: 0.3px solid rgba(170, 170, 170, 0.507);
+        text-align: left;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    main #discount #service-content-3{
+        background-image: url(../img/transmission-service.jpg);
+        background-size: 70%;
+        background-repeat: no-repeat;
+        background-position: 350px center;
+    }
+    main #discount #service-content-3 .linear-gradient-div{
+        margin-left: 21px;
+        margin-top: -30px;
+        position: absolute;
+        height: 480px;
+        width: 754px;
+        background-color: transparent;
+        background-image: linear-gradient(290deg, rgba(64, 84, 178, 0.35) 55%, #FFFFFF 0%);
+        opacity: 1;
+        z-index: 0;
+        transition: 0.3s ease-in-out, background-image 0.3s ease-in-out;
+        transform: translateX(0);
+    }
+    main #discount #service-content-3:hover{
+        background-image: url(../img/transmission-service.jpg);
+        background-size: 70%;
+        background-repeat: no-repeat;
+        background-position: 350px center;
+    }
+    main #discount #service-content-3 .linear-gradient-div:hover{
+        margin-left: 0px;
+        margin-top: -30px;
+        position: absolute;
+        height: 480px;
+        width: 775px;
+        background-color: transparent;
+        background-image: linear-gradient(290deg, rgba(64, 85, 178, 0) 55%, #FFFFFF 0%);
+        opacity: 1;
+        z-index: 0;
+        transition: 0.3s ease-in-out, background-image 0.3s ease-in-out;
+    }
+    main #discount .row .col h2{
+        margin-bottom: 40px;
+        width: 310px;
+        font-size: 35px;
+    }
+    main #discount .row .col h2 p{
+        position: relative;
+        margin-bottom: 0px;
+        font-weight: 900;
+    }
+    main #discount .row .col p{
+        position: relative;
+        width: 300px;
+    }
+    main #discount .row .col a{
+        position: relative;
+    }
+    main #discount .row .col a .btn{
+        margin-top: 50px;
+        width: 250px;
+        height: 80px;
+        background-color: orange;
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 991px){
+    main #discount .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    main #discount .col{
+        width: 50%;
+        height: 480px;
+        border: 0.3px solid rgba(170, 170, 170, 0.507);
+        text-align: left;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    main #discount #service-content-3{
+        background-image: url(../img/transmission-service.jpg);
+        background-size: 70%;
+        background-repeat: no-repeat;
+        background-position: 280px center;
+    }
+    main #discount #service-content-3 .linear-gradient-div{
+        margin-left: 21px;
+        margin-top: -30px;
+        position: absolute;
+        height: 480px;
+        width: 643px;
+        background-color: transparent;
+        background-image: linear-gradient(290deg, rgba(64, 84, 178, 0.35) 55%, #FFFFFF 0%);
+        opacity: 1;
+        z-index: 0;
+        transition: 0.3s ease-in-out, background-image 0.3s ease-in-out;
+        transform: translateX(0);
+    }
+    main #discount #service-content-3:hover{
+        background-image: url(../img/transmission-service.jpg);
+        background-size: 70%;
+        background-repeat: no-repeat;
+        background-position: 280px center;
+    }
+    main #discount #service-content-3 .linear-gradient-div:hover{
+        margin-left: 0px;
+        margin-top: -30px;
+        position: absolute;
+        height: 480px;
+        width: 664px;
+        background-color: transparent;
+        background-image: linear-gradient(290deg, rgba(64, 85, 178, 0) 55%, #FFFFFF 0%);
+        opacity: 1;
+        z-index: 0;
+        transition: 0.3s ease-in-out, background-image 0.3s ease-in-out;
+    }
+    main #discount .row .col h2{
+        margin-bottom: 40px;
+        width: 310px;
+    }
+    main #discount .row .col h2 p{
+        position: relative;
+        margin-bottom: 0px;
+        font-weight: 900;
+        font-size: 35px;
+    }
+    main #discount .row .col p{
+        position: relative;
+        width: 300px;
+        /* font-size: 20px; */
+    }
+    main #discount .row .col a{
+        position: relative;
+    }
+    main #discount .row .col a .btn{
+        margin-top: 50px;
+        width: 200px;
+        height: 80px;
+        background-color: orange;
+        color: white;
+        font-size: 25px;
+        font-weight: 700;
     }
 }
