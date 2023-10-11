@@ -720,9 +720,14 @@ footer{
     }
 }
 
+
+
+
+
+
 /* STYLESHEET FOR MOBILE*/
 
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1399px){
     header {
         display: block;
         width: 100%;
@@ -1056,98 +1061,103 @@ footer{
         #services-tab{
             text-align: center;
             display: block;
-            .row .col p{
-                color: orange;
-                font-weight: 700;
-            }
-            .row .col h1{
-                font-size: 55px;
-                font-weight: 900;
-            }
-            .row .col h6{
-                line-height: 1.8em;
-                font-weight: 500;
-                font-size: 15px;
-                color: rgba(37, 37, 37, 0.66);
-                padding-top: 30px;
-                padding-left: 350px;
-                padding-right: 350px;
-            }
         }
-        #services-desc{
-            #row-1{
-                padding-left: 80px;
-                padding-right: 80px;
-            }
-            .row .col-4{
-                height: 360px;
-                padding: 30px;
-                border: 0.3px solid rgba(170, 170, 170, 0.507);
-                transition: 0.3s ease-in-out;
-                background-color: white;
-                .row .col{
-                    justify-items: left;
-                    align-items: left;
-                }
-                .row .col h3{
-                    margin-top: 20px;
-                    margin-bottom: 20px;
-                    font-size: 18px;
-                    font-weight: 800;
-                }
-                .row .col p{
-                    margin-bottom: 40px;
-                }
-                .row .col a{
-                    font-weight: 600;
-                    fill: #4054B2;
-                    color: #4054B2;
-                    text-decoration: inherit;
-                }
-            }
-            .row #item1:hover{
-                border: 0.3px solid rgba(51, 51, 51, 0.733);
-                transition: 0.3s ease-in-out;
-            }
-            .row #item2:hover{
-                border: 0.3px solid rgba(51, 51, 51, 0.733);
-                transition: 0.3s ease-in-out;
-            }
-            .row #item3:hover{
-                border: 0.3px solid rgba(51, 51, 51, 0.733);
-                transition: 0.3s ease-in-out;
-            }
-            .row #item4:hover{
-                border: 0.3px solid rgba(51, 51, 51, 0.733);
-                transition: 0.3s ease-in-out;
-            }
-            .row #item5:hover{
-                border: 0.3px solid rgba(51, 51, 51, 0.733);
-                transition: 0.3s ease-in-out;
-            }
-            .row #item6:hover{
-                border: 0.3px solid rgba(51, 51, 51, 0.733);
-                transition: 0.3s ease-in-out;
-            }
-            .row #item7:hover{
-                border: 0.3px solid rgba(51, 51, 51, 0.733);
-                transition: 0.3s ease-in-out;
-            }
-            .row #item8:hover{
-                border: 0.3px solid rgba(51, 51, 51, 0.733);
-                transition: 0.3s ease-in-out;
-            }
-            .row #item9:hover{
-                border: 0.3px solid rgba(51, 51, 51, 0.733);
-                transition: 0.3s ease-in-out;
-            }
+        #services-tab .row .col p{
+            color: orange;
+            font-weight: 700;
+            font-size: 30px;
+        }
+        #services-tab .row .col h1{
+            font-size: 85px;
+            font-weight: 900;
+        }
+        #services-tab .row .col h6{
+            line-height: 1.8em;
+            font-weight: 500;
+            font-size: 40px;
+            color: rgba(37, 37, 37, 0.66);
+            padding-top: 30px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        #services-desc #row-1{
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+            text-align: center;
+            justify-items: center;
+        }
+        #services-desc .row .col-4{
+            height: 500px;
+            padding: 30px;
+            border: 0.3px solid rgba(170, 170, 170, 0.507);
+            transition: 0.3s ease-in-out;
+            background-color: white;
+            width: 100%;
+        }
+        #services-desc .row .col-4 .row .col{
+            justify-items: left;
+            align-items: left;
+        }
+        #services-desc .row .col-4 .row .col h3{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 18px;
+            font-weight: 800;
+        }
+        #services-desc .row .col-4 .row .col p{
+            margin-bottom: 40px;
+        }
+        #services-desc .row .col-4 .row .col a{
+            font-weight: 600;
+            fill: #4054B2;
+            color: #4054B2;
+            text-decoration: inherit;
+        }
+        #services-desc .row .col-4 .row .col img{
+            width: 9%;
+        }
+        #services-desc .row #item1:hover{
+            border: 0.3px solid rgba(51, 51, 51, 0.733);
+            transition: 0.3s ease-in-out;
+        }
+        #services-desc .row #item2:hover{
+            border: 0.3px solid rgba(51, 51, 51, 0.733);
+            transition: 0.3s ease-in-out;
+        }
+        #services-desc .row #item3:hover{
+            border: 0.3px solid rgba(51, 51, 51, 0.733);
+            transition: 0.3s ease-in-out;
+        }
+        #services-desc .row #item4:hover{
+            border: 0.3px solid rgba(51, 51, 51, 0.733);
+            transition: 0.3s ease-in-out;
+        }
+        #services-desc .row #item5:hover{
+            border: 0.3px solid rgba(51, 51, 51, 0.733);
+            transition: 0.3s ease-in-out;
+        }
+        #services-desc .row #item6:hover{
+            border: 0.3px solid rgba(51, 51, 51, 0.733);
+            transition: 0.3s ease-in-out;
+        }
+        #services-desc .row #item7:hover{
+            border: 0.3px solid rgba(51, 51, 51, 0.733);
+            transition: 0.3s ease-in-out;
+        }
+        #services-desc .row #item8:hover{
+            border: 0.3px solid rgba(51, 51, 51, 0.733);
+            transition: 0.3s ease-in-out;
+        }
+        #services-desc .row #item9:hover{
+            border: 0.3px solid rgba(51, 51, 51, 0.733);
+            transition: 0.3s ease-in-out;
         }
         main .bg-es{
             background-color: #061E4C;
         }
         main .exp-top{
             position: absolute;
-            height: 100%;
+            height: 400%;
             transform: translateY(150px);
             background-image: linear-gradient(360deg, #061E4C 75%, #FFFFFF 0%);
             z-index: -1;
@@ -1155,57 +1165,61 @@ footer{
         main #especialized-services{
             background-color: #061E4C;
             text-align: center;
-            #row-1{
-                padding-left: 80px;
-                padding-right: 80px;
-            }
-            .row .col h2{
-                color: white;
-                font-weight: 900;
-            }
-            .row .col-4{
-                height: 360px;
-                padding: 30px;
-                text-align: left;
-                background-color: transparent;
-                transition: 0.3s ease-in-out;
-                .row .col h3{
-                    margin-top: 20px;
-                    margin-bottom: 20px;
-                    color: white;
-                    font-weight: 800;
-                    font-size: 18px;
-                }
-                .row .col p{
-                    color: white;
-                    font-size: 17px;
-                    margin-bottom: 40px;
-                }
-                .row .col a{
-                    font-weight: 600;
-                    fill: white;
-                    color: white;
-                    text-decoration: inherit;
-                }
-            }
-            .row #item1:hover{
-                background-color: #042d7977;
-            }
-            .row #item2:hover{
-                background-color: #042d7977;
-            }
-            .row #item3:hover{
-                background-color: #042d7977;
-            }
-            .row #item4:hover{
-                background-color: #042d7977;
-            }
-            .row #item5:hover{
-                background-color: #042d7977;
-            }
-            .row #item6:hover{
-                background-color: #042d7977;
-            }
+        }
+        main #especialized-services #row-1{
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        main #especialized-services .row .col h2{
+            color: white;
+            font-weight: 900;
+            font-size: 60px;
+        }
+        main #especialized-services .row .col-4{
+            height: 700px;
+            width: 330px;
+            padding: 20px;
+            text-align: left;
+            background-color: transparent;
+            transition: 0.3s ease-in-out;
+        }
+        main #especialized-services .row .col-4 .row .col h3{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: white;
+            font-weight: 800;
+            font-size: 40px;
+        }
+        main #especialized-services .row .col-4 .row .col p{
+            color: white;
+            font-size: 30px;
+            margin-bottom: 40px;
+        }
+        main #especialized-services .row .col-4 .row .col a{
+            font-weight: 600;
+            fill: white;
+            color: white;
+            text-decoration: inherit;
+            font-size: 30px;
+            
+        }
+        main #especialized-services .row .col-4 .row #item1:hover{
+            background-color: #042d7977;
+        }
+        main #especialized-services .row .col-4 .row #item2:hover{
+            background-color: #042d7977;
+        }
+        main #especialized-services .row .col-4 .row #item3:hover{
+            background-color: #042d7977;
+        }
+        main #especialized-services .row .col-4 .row #item4:hover{
+            background-color: #042d7977;
+        }
+        main #especialized-services .row .col-4 .row #item5:hover{
+            background-color: #042d7977;
+        }
+        main #especialized-services .row .col-4 .row #item6:hover{
+            background-color: #042d7977;
         }
         #choose-us{
             .row #main-description{
@@ -1592,7 +1606,7 @@ footer{
         position: relative;
         margin-bottom: 0px;
         font-weight: 900;
-        font-size: 35px;
+        font-size: 50px !important;
     }
     main #discount .row .col p{
         position: relative;
@@ -1604,11 +1618,117 @@ footer{
     }
     main #discount .row .col a .btn{
         margin-top: 50px;
-        width: 200px;
+        width: 230px;
         height: 80px;
         background-color: orange;
         color: white;
-        font-size: 25px;
+        font-size: 30px;
         font-weight: 700;
+    }
+    #services-tab{
+        text-align: center;
+        display: block;
+    }
+    #services-tab .row .col p{
+        color: orange;
+        font-weight: 700;
+        font-size: 35px !important;
+    }
+    #services-tab .row .col h1{
+        font-size: 85px !important;
+        font-weight: 900;
+    }
+    #services-tab .row .col h6{
+        line-height: 1.8em;
+        font-weight: 500;
+        font-size: 40px !important;
+        color: rgba(37, 37, 37, 0.66);
+        padding-top: 30px;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    #services-desc #row-1{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        text-align: center;
+        justify-items: center;
+    }
+    #services-desc .row .col-4{
+        height: 500px !important; 
+        padding: 30px;
+        border: 0.3px solid rgba(170, 170, 170, 0.507);
+        transition: 0.3s ease-in-out;
+        background-color: white;
+        width: 100%;
+    }
+    #services-desc .row .col-4 .row .col{
+        justify-items: left;
+        align-items: left;
+    }
+    #services-desc .row .col-4 .row .col h3{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 35px !important;
+        font-weight: 800;
+    }
+    #services-desc .row .col-4 .row .col p{
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+    #services-desc .row .col-4 .row .col a{
+        font-weight: 600;
+        fill: #4054B2;
+        color: #4054B2;
+        text-decoration: inherit;
+        font-size: 30px;
+    }
+    #services-desc .row .col-4 .row .col img{
+        width: 20%;
+    }
+    #services-desc .row #item1:hover{
+        border: 0.3px solid rgba(51, 51, 51, 0.733);
+        transition: 0.3s ease-in-out;
+    }
+    #services-desc .row #item2:hover{
+        border: 0.3px solid rgba(51, 51, 51, 0.733);
+        transition: 0.3s ease-in-out;
+    }
+    #services-desc .row #item3:hover{
+        border: 0.3px solid rgba(51, 51, 51, 0.733);
+        transition: 0.3s ease-in-out;
+    }
+    #services-desc .row #item4:hover{
+        border: 0.3px solid rgba(51, 51, 51, 0.733);
+        transition: 0.3s ease-in-out;
+    }
+    #services-desc .row #item5:hover{
+        border: 0.3px solid rgba(51, 51, 51, 0.733);
+        transition: 0.3s ease-in-out;
+    }
+    #services-desc .row #item6:hover{
+        border: 0.3px solid rgba(51, 51, 51, 0.733);
+        transition: 0.3s ease-in-out;
+    }
+    #services-desc .row #item7:hover{
+        border: 0.3px solid rgba(51, 51, 51, 0.733);
+        transition: 0.3s ease-in-out;
+    }
+    #services-desc .row #item8:hover{
+        border: 0.3px solid rgba(51, 51, 51, 0.733);
+        transition: 0.3s ease-in-out;
+    }
+    #services-desc .row #item9:hover{
+        border: 0.3px solid rgba(51, 51, 51, 0.733);
+        transition: 0.3s ease-in-out;
+    }
+    main .bg-es{
+        background-color: #061E4C;
+    }
+    main .exp-top{
+        position: absolute;
+        height: 400%;
+        transform: translateY(150px);
+        background-image: linear-gradient(360deg, #061E4C 75%, #FFFFFF 0%);
+        z-index: -1;
     }
 }
