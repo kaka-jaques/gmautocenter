@@ -12,3 +12,4 @@
  - JQuery 2.1.3 (Requisito de outra lib)
  - Vivus 0.4.6
  - ProgressBar 1.0
+ - GSAP
