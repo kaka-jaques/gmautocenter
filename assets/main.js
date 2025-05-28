@@ -3,7 +3,6 @@ const fadeIns = document.querySelectorAll('.fade-in');
 
 const introSwiper = new Swiper('#swiper-intro', {
     slidesPerView: 1,
-    spaceBetween: 20,
     loop: true,
     autoplay: {
         delay: 4000,
@@ -13,6 +12,17 @@ const introSwiper = new Swiper('#swiper-intro', {
     pagination: {
         el: '.swiper-pagination',
         clickable: true
+    }
+})
+
+const swiperResume = new Swiper('#swiper-services-resume', {
+    slidesPerView: 1,
+    centeredSlides: true,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
     }
 })
 
