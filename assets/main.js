@@ -6,14 +6,13 @@ const introSwiper = new Swiper('#swiper-intro', {
     spaceBetween: 20,
     loop: true,
     autoplay: {
-        delay: 2500,
+        delay: 4000,
         disableOnInteraction: false,
     },
     effect: 'fade',
-    simulateTouch: false,
     pagination: {
         el: '.swiper-pagination',
-        clickable: false
+        clickable: true
     }
 })
 
